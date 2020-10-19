@@ -27,6 +27,7 @@ typedef enum {
 
 typedef struct button {
     uint16_t ticks;
+    uint8_t  id;
     uint8_t  repeat       : 4;
     uint8_t  event        : 4;
     uint8_t  state        : 3;
